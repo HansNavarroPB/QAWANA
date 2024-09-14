@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sube tu Foto</title>
+</head>
+<body>
+    <h1>Sube tu Foto de Retina</h1>
+    <form id="uploadForm">
+        <label for="photo">Selecciona una foto:</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required>
+        <br>
+        <label for="description">Descripción:</label>
+        <textarea id="description" name="description" rows="4" cols="50" required></textarea>
+        <br>
+        <button type="submit">Subir Foto</button>
+    </form>
+    <div id="gallery"></div>
+    <script src="script.js"></script>
+</body>
+</html>
